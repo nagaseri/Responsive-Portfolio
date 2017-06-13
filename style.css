@@ -239,33 +239,47 @@ input[type=submit] {
     padding-left: 30px;
   }
   .sidebar {
-    max-width: 80%;
-    margin-left: 70px;
+    max-width: 95%;
+    margin-top: 50px;
     margin-right: 30px;
+    margin-left: 30px;
   }
   #logo {
     margin-left: 30px;
   }
   .work {
-    margin-left: 10px;
-    /*float: none;*/
-    width: auto;
+  margin: none;
   }
   .work:nth-child(even) {
     margin-right: 0;
   }
+  .work img {
+  margin: 10px;
+}
 
 
 /*WHEN VIEWPOINT IS BETWEEN 0PX AND 640PX*/
 @media screen and (max-width: 640px) {
+  #main-container {
+    padding-top: 10px;
+  }
   #masthead {
     position: static;
   }
   #logo {
-    float: none;
-    margin: none;
+    width: 100%;
+    margin: 0;
+    top: 0;
   }
   nav {
-    float: none;
+    width: 100%;
+    display: inline-block;
   }
+  nav a {
+    padding-right: 65px;
+    padding-left: 65px;
+    }
+  .work {
+    width: 100%;
+  }  
 }
