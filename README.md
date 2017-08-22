@@ -4,13 +4,12 @@
 
 	Below are screenshots of the app: 
 
-![Image of movie-this](liri.png)
+![Image of index page](images/index.png)
 
-![Image of my-tweets](liri1.png)
+![Image of portfolio page](images/portfolio.png)
 
-![Image of spotify-this](liri2.png)
+![Image of contact page](images/contact.png)
 
-![Image of do-what-it-says](liri3.png)
 
 ## Contributor
 
@@ -20,7 +19,7 @@
 	
 	HTML
   
-  CSS
+  	CSS
 
 ## License
 	Copyright 2017 UC Berkeley Extension Coding Bootcamp - Eri Nagase
